@@ -1,8 +1,31 @@
 .crystal-image {
-    width: 150px;
-    height: 150px;
+    width: 115px;
+    height: 115px;
+    margin-left: 10px;
 }
 
-.random-number {
-    margin-right: 20px;
+#crystals {
+    margin-top: 20px;
+}
+
+#instructions {
+    margin-top: 15px;
+
+}
+
+
+
+.score {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#winText {
+    display: none;
+}
+
+
+
+h1 {
+    padding: 10px;
 }
