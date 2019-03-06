@@ -13,7 +13,23 @@
 
 }
 
+#wins {
+    font-weight: bold;
+}
 
+#losses {
+    font-weight: bold;
+}
+
+#losses {}
+
+#score {
+    font-weight: bold;
+}
+
+#randomNumber {
+    font-weight: bold;
+}
 
 .score {
     margin-top: 20px;

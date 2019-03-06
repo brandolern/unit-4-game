@@ -16,8 +16,6 @@ $(document).ready(function () {
         $("#score").text(counter);
     }
 
-
-
     for (i = 0; i < images.length; i++) {
 
         var crystalValue = Math.floor(Math.random() * 11) + 1;
@@ -30,7 +28,6 @@ $(document).ready(function () {
         crystalImage.attr("data-crystalvalue", crystalValue);
         $("#crystals").append(crystalImage);
     }
-
 
     updateInfo();
 
@@ -75,6 +72,7 @@ $(document).ready(function () {
             updateInfo();
 
         }
+
         updateInfo();
 
     });
